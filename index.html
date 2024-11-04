@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/e11528b410.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <header class="container">
+            <nav>
+                <h1>Mehedi</h1>
+                <ul>
+             <li><a href="#">Home</a></li>
+             <li><a href="#">About</a></li>
+             <li><a href="#">Portfolio</a></li>
+             <li><a href="#">Contact</a></li>
+             <li><a href="#">Service</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="banner">
+            <!-- banner section -->
+             <div class="text">
+               
+                <h1>Hi, I am <br><span>Mehedi</span> Hasan</h1>
+                <p>Front-end Developer</p>
+                
+             </div>
+             <div>
+                <img src="images/hardy.png" alt="">
+             </div>
+        </section>
+
+        <!-- about section -->
+         <section id="about">
+            <div class="container">
+            
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/architect.png" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About <span>Me</span></h1>
+                        <p>Hello! I’m a dedicated Web Developer with a strong foundation in front-end development. I specialize in building dynamic and responsive web applications using React. My journey into the world of web development began with a curiosity for how websites are created and a desire to bring creative ideas to life through code. Always I enjoy my work.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('eduction')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                          
+
+                        </div>
+                        <!-- skills -->
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Design web interface</li>
+                                <li><span>Developer</span><br>Web Developer</li>
+                                <li><span>Programmer</span><br>Programming</li>
+                            </ul>
+                        </div>
+                      
+                        <!--eduction  -->
+                        <div class="tab-contents" id="eduction">
+                            <ul>
+                                <li><span>SSC</span><br>Science Study</li>
+                                <li><span>HSC</span><br>Business Study</li>
+                                <li><span>Diploma</span><br>Electronics Department</li>
+                              
+                            </ul>
+                        </div>
+                        <!-- experience -->
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Web development</span><br>02 Years</li>
+                                <li><span>Computer Operator</span><br>02 Years</li>
+                                <li><span>Teaching</span><br>05 Years</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- services -->
+          <section>
+            <div class="container">
+            <h1 class="sub-title">
+                    My Services</h1>
+                    <div class="services-list">
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>Web Design</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eius harum laboriosam! Cum libero voluptas amet laborum nisi totam officiis modi eveniet accusantium animi saepe odit voluptatum, omnis debitis veritatis.</p>
+                            <a href="#">Learn More </a>
+                        </div>
+                        <div>
+                           
+
+                            <i class="fa-brands fa-app-store"></i>
+                            <h2>APP Design</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eius harum laboriosam! Cum libero voluptas amet laborum nisi totam officiis modi eveniet accusantium animi saepe odit voluptatum, omnis debitis veritatis.</p>
+                            <a href="#">Learn More </a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-crop"></i>
+                            <h2>UI/UX Design</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eius harum laboriosam! Cum libero voluptas amet laborum nisi totam officiis modi eveniet accusantium animi saepe odit voluptatum, omnis debitis veritatis.</p>
+                            <a href="#">Learn More </a>
+                        </div>
+                    </div>
+            </div>
+          </section>
+<!-- my portfolio/work -->
+          <section id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">
+                    My Work
+                </h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/team1.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The app connects all around the work. Download the app </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/team2.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The app connects all around the work. Download the app </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/team3.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The app connects all around the work. Download the app </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+
+
+
+
+    </main>
+
+    <script src="js/script.js"> </script>
+
+</body>
+</html>
