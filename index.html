@@ -8,19 +8,22 @@
     <script src="https://kit.fontawesome.com/e11528b410.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <main>
-        <header class="container">
+    <main id="herder">
+        <div class="container">
             <nav>
                 <h1>Mehedi</h1>
-                <ul>
-             <li><a href="#">Home</a></li>
-             <li><a href="#">About</a></li>
-             <li><a href="#">Portfolio</a></li>
-             <li><a href="#">Contact</a></li>
-             <li><a href="#">Service</a></li>
+                <ul id="sidemenu">
+             <li><a href="#herder">Home</a></li>
+             <li><a href="#about">About</a></li>
+             <li><a href="#services">Service</a></li>
+             <li><a href="#portfolio">Portfolio</a></li>
+             <li><a href="#contact">Contact</a></li>
+            
+             <i class="fa-regular fa-circle-xmark fas" onclick="colsemenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
             </nav>
-        </header>
+        </div>
         <section class="banner">
             <!-- banner section -->
              <div class="text">
@@ -85,7 +88,7 @@
          </section>
 
          <!-- services -->
-          <section>
+          <section id="services">
             <div class="container">
             <h1 class="sub-title">
                     My Services</h1>
@@ -173,19 +176,20 @@
                             <input type="text" name="name" placeholder="Your Name" required>
                             <input type="email" name="email" placeholder="Your Email" required>
                             <textarea name="Message" rows="6" placeholder="Your message"></textarea>
-                            <button type="submit">Submit</button>
+                            <button type="submit" class="btn btn2">Submit</button>
                         </form>
                     </div>
                 </div>
             </div>
-
           </section>
-
-
-
     </main>
+    <footer class="copyright">
+        <p>
+            <i class="fa-regular fa-copyright"></i> Copyright 2024, All rights reserved by Mehedi
+        </p>
+    </footer>
+
 
     <script src="js/script.js"> </script>
-
 </body>
 </html>
